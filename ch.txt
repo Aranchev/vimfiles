@@ -1,0 +1,37 @@
+# INSERT ----------
+ea -- appends at the end of the word
+:2,5s/^/character/ -- inserts a character at the beginning of lines 2 to 5
+
+# MOVEMENT ----------
+fx - jumps forward to x
+Fx - jumps backward to x
+
+# FOLDING ----------
+za -- toggles the fold under the cursor
+zM -- closes all folds
+zR -- opens all folds
+
+# REPLACE ----------
+~ -- switches case
+R -- replaces more than one character until Esc is pressed
+
+# VISUAL ----------
+f(va) - gets everything in the braces
+viw - selects the word under the cursor
+
+# YANK & PUT ----------
+yy - yank current line
+yw - yank a word from the cursor
+ynw - yank n words from the cursor
+y$ - yank till the end of the line
+P - Put yanked text above current line
+xp - transpose two letters (delete and paste)
+
+# WINDOWS ---------
+CTRL+w+r - rotate window
+ctr+w followed shift+n it pauses the terminal, and you can navigate, press, 'i' to go back
+
+
+J - Join current line with the next line. Use gJ to exclude join-position space
+:g/^$/d - remove empty lines
+:g/^/normal o - add empty line inbetween each line 
