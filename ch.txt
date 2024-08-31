@@ -1,3 +1,4 @@
+da
 # INSERT ----------
 ea -- appends at the end of the word
 :2,5s/^/character/ -- inserts a character at the beginning of lines 2 to 5
