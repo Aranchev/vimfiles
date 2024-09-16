@@ -1,5 +1,10 @@
+m + d - for delete file in Nerdtre
+B - show bookmarks Nerdtree
+r - refresh the Nerdtree
+R - refresh all directories
 :e ~/vimfiles/... - opens the files in vimfiles
 :pwd - shows you the current working directory in vim
+:!dir - shows you the dir content 
 
 # INSERT ----------
 ea -- appends at the end of the word
