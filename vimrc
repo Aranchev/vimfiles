@@ -70,6 +70,8 @@ let g:ale_python_flake8_executable = 'flake8'
 
 let g:ale_python_flake8_executable = $FLAKE8_PATH
 
+let g:ale_python_flake8_options = '--config=~/vimfiles/.flake8'
+
 " Key Mappings
 map <C-z> <Nop>              " Disable Ctrl-z
 nnoremap <Leader>t :NERDTreeToggle<CR> " Toggle NERDTree
