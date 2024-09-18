@@ -1,3 +1,4 @@
+nyy - where n is number copies number of lines from the place of cursor
 m + d - for delete file in Nerdtre
 B - show bookmarks Nerdtree
 r - refresh the Nerdtree
