@@ -1,5 +1,6 @@
 
 "clean W503 error from flake8
+nnoremap <C-q> <C-v>
 nmap <F8> :TagbarToggle<CR>
 nnoremap <Leader>c :w<CR>:!py %<CR>
 " Basic Settings
