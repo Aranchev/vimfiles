@@ -1,6 +1,8 @@
 
 "clean W503 error from flake8
-nmap <F8> :TagbarToggle<CR>
+"
+" Toggle TagBar
+nmap <F8> :TagbarToggle<CR> 
 nnoremap <Leader>c :w<CR>:!py %<CR>
 " Basic Settings
 set number                   " Display line numbers
@@ -31,10 +33,11 @@ Plug 'preservim/nerdtree'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'alvan/vim-closetag'
 Plug 'davidhalter/jedi-vim'
-Plug 'preservim/tagbar'
 " shift+k - documentation
 " ctr+space 
 " features - https://github.com/davidhalter/jedi-vim?tab=readme-ov-file#features
+
+Plug 'preservim/tagbar'
 
 call plug#end()
 
