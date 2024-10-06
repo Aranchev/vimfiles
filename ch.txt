@@ -1,3 +1,4 @@
+multicursor? - https://stackoverflow.com/questions/11784408/vim-multiline-editing-like-in-sublimetext
 nyy - where n is number copies number of lines from the place of cursor
 m + d - for delete file in Nerdtre
 B - show bookmarks Nerdtree
